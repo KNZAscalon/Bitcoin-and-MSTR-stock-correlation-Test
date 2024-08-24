@@ -1,5 +1,5 @@
 # Bitcoin-and-MSTR-stock-correlation-Test
-This repository is a storage for a project of mine back in 2022. It was about how MSTR stock react to Bitcoin price ups and downs. I was interested to do this back then due to Michael Saylor's interest in buying Bitcoins and have a curiosity regarding what happen to company stock price if the company own bitcoins
+This repository is a storage for a project of mine back in 2022. It was about how MSTR stock react to Bitcoin price ups and downs. I was interested to do this back then due to Michael Saylor's interest in buying Bitcoins in 2019 but at that time I was still learning basics of Python. But, I am curious about what happen to company stock price if the company own bitcoins
 
 Requirements :
 yfinance, tfcausalimpact, pandas
@@ -37,4 +37,30 @@ Key Features of tfcausalimpact:
 pandas
 
 widely-used open-source data analysis and manipulation library for Python. It provides data structures and functions needed to work with structured data seamlessly. Pandas is especially useful for handling large datasets and performing complex data operations with just a few lines of code.
+
+
+Conclusion:
+Based on the correlation test, the hike and fall of MSTR stock price is moderately affected by bitcoin price. 
+
+For causal impact test, the intervention appears to have had a statistically significant impact on the response variable. Here's a breakdown of the key points:
+
+Observed vs. Predicted Values:
+
+Post-intervention observed average: 48,879.11
+Expected average without intervention: 34,851.63
+95% confidence interval for the expected average: [31,595.48, 38,811.8]
+The observed value is significantly higher than the predicted value, with the difference (causal effect) being 14,027.48. The 95% confidence interval for this difference is [10,067.31, 17,283.62].
+
+Statistical Significance:
+
+The fact that the 95% confidence interval for the causal effect (14,027.48) does not include zero indicates that the effect is statistically significant. This means that the increase in the response variable is unlikely to be due to random chance.
+Relative Increase:
+
+The response variable showed a relative increase of +40.25%, with a 95% confidence interval of [28.89%, 49.59%]. This suggests a substantial impact, reinforcing the significance of the intervention.
+Bayesian p-value:
+
+The Bayesian one-sided tail-area probability (p = 0.0) further confirms the statistical significance. A p-value of 0.0 means that the probability of observing such an effect purely by chance is extremely low, effectively confirming that the intervention had a significant impact.
+
+
+This means that overall, there is a high chance that MSTR stock price is affected bt the price of Bitcoin.
 
