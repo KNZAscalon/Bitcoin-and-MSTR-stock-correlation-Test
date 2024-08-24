@@ -2,8 +2,7 @@
 This repository is a storage for a project of mine back in 2022. It was about how MSTR stock react to Bitcoin price ups and downs. I was interested to do this back then due to Michael Saylor's interest in buying Bitcoins and have a curiosity regarding what happen to company stock price if the company own bitcoins
 
 Requirements :
-1.yfinance
-2.tfcausalimpact
+yfinance, tfcausalimpact
 
 yfinance : Python library that allows users to access financial data from Yahoo Finance. It provides a simple interface for downloading stock prices, historical market data, financial metrics, and other related information. With yfinance, you can easily obtain data for stocks, indices, currencies, and more.
 
