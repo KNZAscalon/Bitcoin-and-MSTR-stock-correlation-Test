@@ -39,7 +39,9 @@ pandas
 widely-used open-source data analysis and manipulation library for Python. It provides data structures and functions needed to work with structured data seamlessly. Pandas is especially useful for handling large datasets and performing complex data operations with just a few lines of code.
 
 
-Conclusion:
+
+Conclusion
+
 Based on the correlation test, the hike and fall of MSTR stock price is moderately affected by bitcoin price. 
 
 For causal impact test, the intervention appears to have had a statistically significant impact on the response variable. Here's a breakdown of the key points:
